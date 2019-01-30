@@ -5,6 +5,10 @@
 // sum() returns the sum of these properties.
 // mul() returns the multiplication product of these properties.
 
+function reload() {
+    location.reload();
+}
+
 function Calculator() {
     this.read = function() {
         this.value1 = prompt("Please enter the first value", "");
